@@ -1,0 +1,89 @@
+.container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+}
+
+/* Header styles */
+h1 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+/* Textarea and button styles */
+.inputStyle {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+textarea {
+  max-width: max-content;
+}
+
+button {
+  background-color: #007bff;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Summary styles */
+h2 {
+  font-size: 20px;
+  margin-top: 20px;
+  color: #333333;
+}
+
+p {
+  font-size: 16px;
+  color: #555555;
+}
+
+/* Radio button styles */
+label {
+  display: inline-block;
+  margin-right: 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+    margin: 10px;
+  }
+}
+
+/* Summary response styles */
+.summaryContainer {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+.summary-container h2 {
+  font-size: 18px;
+  color: #333333;
+}
+
+.summary-content {
+  font-size: 16px;
+  color: #555555;
+  margin-top: 10px;
+}
